@@ -1,0 +1,336 @@
+/*header*/
+.header{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header li{
+  width: 100%;
+}
+
+.header-logo{
+  display: flex;
+  color: black;
+}
+
+.header-logo-image{
+  width: 60px;
+  margin: 5px;
+}
+
+.header-logo-name{
+  margin-top: 10px;
+  padding: 0px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header-tagline{
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.header-cta_btn-box{
+  display: flex;
+  justify-content: right;
+}
+
+.header-cta_btn{
+  background-color:black ;
+  color: white;
+  padding: 10px;
+  padding-right: 0px;
+  width: 100px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: scale 0.25s;
+}
+
+.header-cta_btn:hover{
+  scale: 1.1;
+}
+
+/*navbar*/
+.navbar{
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  background-color: rgb(221, 140, 140);
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+}
+
+.navbar-first{
+  padding-left: 5px;
+}
+
+.navbar div{
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.navbar li{
+  margin-right: 30px;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar div:hover{
+  background-color: rgb(195, 125, 125);
+}
+
+/*hero*/
+.hero{
+  background-image: url('./assets/hero-image.jpg');
+  height: 18rem;
+}
+
+.hero-headline{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 5px;
+  padding-top: 40px;
+}
+
+.hero-subheadline{
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hero-cta_btn-box{
+  margin-left: 5px;
+}
+
+.hero-cta_btn{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: scale 0.25s;
+}
+
+.hero-cta_btn:hover{
+  scale: 1.05;
+}
+
+/*about*/
+.about{
+  margin-left: 5px;
+}
+
+.about-heading{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.about-paragraph{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.about-mission-heading{
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.about-mission-paragraph{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.about-values-heading{
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.about-values-paragraph{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+/*services*/
+.services{
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.services-heading{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.services-list{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.services-list-item-box{
+  padding-bottom: 20px;
+}
+
+
+.services-list-item{
+  font-size: 30px;
+}
+
+.services-list-item-desc{
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.services-list-item_icon{
+  display: flex;
+  justify-content: left;
+}
+
+.services-list-item-icon{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/*team*/
+.team{
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.team-heading{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.team-details-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.team-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+
+.team-desc{
+  width: 100%;
+  margin-right: 150px;
+}
+
+.team-desc-name{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.team-desc-content{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.team-details{
+  font-weight: 500;
+  width: 100%;
+}
+
+/*testimonials*/
+.testimonials{
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.testimonials-heading{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.testimonials-desc{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+/*contact*/
+.contact{
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.contact-heading{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.contact-details{
+  display: flex;
+  justify-content: left;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.contact-details input{
+  border-radius: 4px;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.contact-message{
+  font-size: 25px;
+}
+
+.contact-message textarea{
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/*media queries*/
+@media all and (max-width: 1010px){
+  .hero-headline{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 5px;
+    padding-top: 40px;
+  }
+  
+  .hero-subheadline{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
